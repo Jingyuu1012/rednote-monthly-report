@@ -41,6 +41,12 @@ For an older Codex skills location, run `$env:CODEX_SKILLS_DIR = Join-Path $HOME
 
 These locations follow the current [Codex skills guide](https://learn.chatgpt.com/docs/build-skills) and [Claude Code skills guide](https://code.claude.com/docs/en/skills).
 
+### Update an existing installation
+
+Download and extract the newest repository version (or run `git pull` in your clone). Rename your installed `rednote-monthly-report` folder to keep a backup, then rerun the matching installer command below and start a new Codex or Claude Code session. The installers intentionally stop when the old folder still exists. The personal skill locations are listed in the table above; if you used `CODEX_SKILLS_DIR` or `CLAUDE_SKILLS_DIR`, update that location instead.
+
+For Claude web or desktop, upload a fresh skill ZIP from the newest repository version, then disable or remove the older uploaded copy. Keep client evidence outside the skill ZIP.
+
 ### Claude web or desktop app
 
 Claude's web and desktop app use a skill ZIP upload rather than the local Claude Code folder. Put this repository's skill files inside a folder named `rednote-monthly-report`, ZIP that folder, then use **Customize → Skills → + Create skill → Upload a skill**. Enable the uploaded skill. Do not include client data in that ZIP. See [Claude's custom skill upload guide](https://support.claude.com/en/articles/12512180-use-skills-in-claude). When using a web or cloud session, upload the month's evidence files to that session or connect a source it can access; a local folder path alone is not available there.
@@ -79,3 +85,7 @@ RedNote Reports/
 5. **Record gaps in `source-notes.md`.** Note missing or unreadable screenshots, unavailable metrics, conflicting values, and the cutoff date for each post. If there were no PMs or comments to analyze, say so there explicitly.
 
 Do not rely on filenames alone to prove a metric or date; the screenshots must show the backend values. Send the whole private monthly folder or a ZIP of it to the analyst, separately from this public skill repository. The skill will ask for any missing evidence before completing the report.
+
+## Account analysis output style
+
+The final **本月账号状态分析** should read like a clean report slide: a short overall takeaway, **核心数据** bullets, then brief **内容观察** bullets on content that gained traffic or generated inquiries. Add **咨询与线索** only when PM/comment evidence exists. Keep each paragraph short and put important numbers in bullets instead of one long block of prose. Pair a weaker result with a practical suggestion in a constructive tone. Do not add a separate generic **下一阶段** plan.
