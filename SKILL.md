@@ -33,7 +33,27 @@ Synthesize the completed post analyses with the overall account figures. Identif
 
 Write concise, client-ready Chinese analysis in the established monthly-report style. Use the account's reporting window and post cutoff dates accurately. Do not mention internal files, screenshots, benchmark PDFs, or phrases such as “在 PDF 所列” in the client-facing copy. Keep methodological notes and evidence gaps separate from the copy, except when a limitation changes the client-facing conclusion.
 
+Format **本月账号状态分析** as a clean, scan-friendly block of roughly one slide, never as several dense paragraphs. Lead with a one- or two-sentence account takeaway. Put the principal totals and month-on-month changes under **核心数据** as short bullets, grouping related metrics rather than narrating every number in prose. Follow with **内容观察** bullets that identify which post types earned reach, saves, follows, or inquiries; add a short **咨询与线索** block when PM/comment evidence supports one. End with at most one or two short sentences that pair any bottleneck with a specific response. Use only the sections that the evidence warrants, keep paragraphs to two sentences or less, and favor whitespace and bullets over a wall of text. Do not force a separate **下一阶段** plan: describe observed content directions for traffic and leads instead.
+
+Suggested shape (replace all placeholders with verified findings and omit unsupported lines):
+
+```markdown
+**整体表现**
+本月账号……。……。
+
+**核心数据**
+- 曝光……；观看……；环比……。
+- 新增粉丝……；主页访客……；转粉率……。
+- 点赞……；收藏……；分享……。
+
+**内容观察**
+- ……类笔记带来较多曝光／收藏／涨粉，说明……。
+- ……类内容引发具体咨询；结合反馈，……。
+
+**咨询与线索**
+- 用户主要询问……；目前可确认的是咨询需求，订单转化仍需成交记录支持。
+```
+
 Apply the same constructive tone to the account summary: pair a decline or bottleneck with the content pattern, audience response, or specific action that offers a path forward. Do not turn a downward trend into a positive claim. Keep the wording confident and measured so the client can see both the result and the response to it.
 
 Return the per-post analyses, then **本月账号状态分析**, plus a short list of unresolved source gaps or decisions. Save written files only when the user asks for files or the established project workflow calls for them. Do not create slides under this skill.
-
