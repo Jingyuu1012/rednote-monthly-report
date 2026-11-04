@@ -43,7 +43,11 @@ These locations follow the current [Codex skills guide](https://learn.chatgpt.co
 
 ### Update an existing installation
 
-Download and extract the newest repository version (or run `git pull` in your clone). Rename your installed `rednote-monthly-report` folder to keep a backup, then rerun the matching installer command below and start a new Codex or Claude Code session. The installers intentionally stop when the old folder still exists. The personal skill locations are listed in the table above; if you used `CODEX_SKILLS_DIR` or `CLAUDE_SKILLS_DIR`, update that location instead.
+1. Download and extract the newest repository version, or run `git pull` in your clone.
+2. Close Codex or Claude Code. Find the installed `rednote-monthly-report` folder using the personal skill locations in the table above. If you used `CODEX_SKILLS_DIR` or `CLAUDE_SKILLS_DIR`, look there instead.
+3. Move the old skill folder **outside** the skills directory, such as into a backup folder under your home directory. Keeping it inside a skills directory may cause a duplicate skill to appear.
+4. Open a terminal in the newly downloaded or updated repository folder and rerun the matching installer command below. The installers intentionally stop if a folder with that skill name still exists.
+5. Start a new Codex or Claude Code session and invoke the skill to confirm it loads. Once the new version works, you may keep or delete your backup.
 
 For Claude web or desktop, upload a fresh skill ZIP from the newest repository version, then disable or remove the older uploaded copy. Keep client evidence outside the skill ZIP.
 
